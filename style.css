@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 720;
+    color: white;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("back.jpg");
+    background-size: cover;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 20vw;
+    background-color: transparent;
+    border: 2px solid white;
+  }
+  
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+  
+  form select,
+  button,
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+  }
+  
+  form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+    background-color: transparent;
+  }
+  
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: transparent;
+  }
+  
+  .dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 7.5px;
+    border-radius: 4px;
+  }
+
+  .dropdown i:hover{
+     border: 1px solid white;
+  }
+  
+  .select-container img {
+    max-width: 2rem;
+    padding-left: 10px;
+  }
+  
+  .select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+  }
+  
+  .select-container select {
+    font-size: 1rem;
+    width: auto;
+    background-color: transparent;
+  }
+
+  .select-container select:focus{
+    background-color: rgb(39, 37, 37);
+  }
+  
+  .msg {
+    margin: 2rem 0 2rem 0;
+  }
+  
+  form button {
+    height: 3rem;
+    background-color: rgb(0, 130, 190);
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
+
+  form button:hover{
+    background-color: rgb(0, 71, 104);
+  }
+  
+  @media (max-width:400px) and (max-height:900px){
+     
+    .container {
+         height: 65vh;
+         width: 65vw;
+    }
+
+    h2{
+      font-size: 1.3rem;
+    }
+
+  }
