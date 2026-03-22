@@ -61,4 +61,4 @@ Here are some screenshots of the Currency Converter:
 ---------
 Meghasham Nemade
 
-I hope this README provides a comprehensive overview of the Currency Converter project. If you have any questions or need further assistance, feel free to reach out to me at meghashamnemade@gmail.com.
+I hope this README provides a comprehensive overview of the Currency Converter project. If you have any questions or need further assistance, feel free to reach out to me at meghashamnemade@gmail.com
